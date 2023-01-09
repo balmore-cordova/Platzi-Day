@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #0C1633;
+    --secondary-color: #98CA3F;
+    --letter-white: #ffffff;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilizando el header */
+header{
+    width: 100%;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+
+.logo-principal{
+    padding-top: 8px;
+}
+
+.logo-principal img{
+    width: 90px;
+    padding-top: 10px;
+    margin-left: 8px;
+}
+
+/* Estilizando el contenedor 1 */
+
+
+.section-one__div-left{
+    background-color: var(--primary-color);
+    color: var(--letter-white);
+    padding-top: 20px;
+    
+}
+
+.section-one__div-left--Platzi-day{
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+.section-one__div-left--Platzi-day .platzi{
+    font-weight: 700;
+}
+
+.section-one__div-left--date{
+    margin-left: 15px;
+    color: var(--secondary-color);
+}
+
+.section-one__div-left--title{
+    font-size: 3.8rem;
+    letter-spacing: -0.1rem;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+
+.section-one__div-left--text1{
+    opacity: 0.5;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-left: 10px;
+    line-height: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.section-one__div-left--botones{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-one__div-left--botones input{
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid var(--secondary-color);
+    
+}
+
+.section-one__div-left--botones button{
+    width: 70%;
+    height: 30px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.section-one__div-left--text2{
+    padding-bottom: 10px;
+}
+.section-one__div-left--text2 p{
+    opacity: 0.5;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-left: 10px;
+    line-height: 1.7rem;
+
+}
+
+.section-one__div-left a{
+    color: var(--letter-white);
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.section-one__div-right--portadasMobile{
+    width: 100%;
+}
